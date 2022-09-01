@@ -22,4 +22,12 @@ describe Solver do
   it 'factorial number of 0 should return 1' do
     expect(solver.factorial(0)).to eq(1)
   end
+
+  it 'solver has a reverse method' do
+    expect(solver).to respond_to(:reverse)
+  end
+
+  it 'reverse method returns olleh when imput is hello' do 
+    expect(solver.reverse('hello')).to eq('olleh')
+  end
 end
