@@ -4,6 +4,13 @@ Implementation of TDD for mobile application of Solver
 
 If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
 
+
+## Run tests in your local env
+
+1. Run `bundle install`
+
+2. Run `rspec ./spec/tests/solver_spec.rb`
+
 ## Set-up linters in your local env
 
 ### [RuboCop](https://docs.rubocop.org/en/stable/)
@@ -24,7 +31,11 @@ If you are not familiar with linters and GitHub Actions, read [root level README
 
 ## Authors
 
-👤 **Author1**
+**Andres Garzon Maldonado**
+:bust_in_silhouette: Andres Garzon
+- Github: [@](https://github.com/Gopxfs)
+- Linkedin: [Andres](https://www.linkedin.com/in/gabriel-fonseca-sales-8bb64b236/)
+
 
 **Oyelakin Ridwan Adio**
 - GitHub: [@oyelakin](https://github.com/oyelakinG9)
