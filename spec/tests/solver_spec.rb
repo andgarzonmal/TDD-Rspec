@@ -38,4 +38,16 @@ describe Solver do
   it 'fizzbuzz method returns fizzbuzz when input 15 as parameter' do 
     expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
   end
+
+  it 'fizzbuzz method returns fizzbuzz when input 25 as parameter' do 
+    expect(solver.fizzbuzz(25)).to eq('buzz')
+  end
+
+  it 'fizzbuzz method returns fizzbuzz when input 25 as parameter' do 
+    expect(solver.fizzbuzz(18)).to eq('fizz')
+  end
+
+  it 'fizzbuzz method returns fizzbuzz when input 7 as parameter' do 
+    expect(solver.fizzbuzz(7)).to eq('7')
+  end
 end
