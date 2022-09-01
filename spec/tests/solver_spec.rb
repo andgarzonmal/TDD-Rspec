@@ -30,4 +30,12 @@ describe Solver do
   it 'reverse method returns olleh when imput is hello' do
     expect(solver.reverse('hello')).to eq('olleh')
   end
+
+  it 'solver has a fizzbuzz method' do
+    expect(solver).to respond_to(:fizzbuzz)
+  end
+
+  it 'fizzbuzz method returns fizzbuzz when input 15 as parameter' do 
+    expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
+  end
 end
