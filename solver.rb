@@ -6,4 +6,8 @@ class Solver
     int.downto(1) {|number| factorial *= number }
     factorial
   end
+
+  def reverse(str)
+    str.reverse
+  end
 end
